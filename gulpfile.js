@@ -15,7 +15,7 @@ var babel      = require('gulp-babel');
 gulp.task("scripts", function () {
     var tsResult = tsProject.src()
         .pipe(sourcemaps.init())
-        .pipe(tsProject());
+        .pipe(tsProject(ts.reporter.longReporter()));
 
     // Merge the two output streams, so this task is finished when the IO of both operations is done.
     return merge([

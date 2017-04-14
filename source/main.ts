@@ -8,3 +8,11 @@
 import { sayHello } from "./greet";
 
 console.log(sayHello("TypeScript"));
+
+class HelloThere {
+
+	public hi = () => {
+
+	};
+
+}
