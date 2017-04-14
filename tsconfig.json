@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES6",
+    "noImplicitAny": true,
+    // "suppressImplicitAnyIndexErrors": false,
+    "outDir": "dist",
+    "noEmitOnError": false,
+    "noEmitHelpers": false,
+    "preserveConstEnums": false,
+    "allowJs": false,
+    "rootDir": "source"
+  },
+  "files": [
+    "source/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
