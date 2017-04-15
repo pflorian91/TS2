@@ -1,9 +1,6 @@
 /**
- * IDemo created on 4/15/17 3:59 PM.
- *
- * @description [To be completed]
+ * @description Demo interface
  */
-
 export interface IDemo {
 	run(): void;
 }

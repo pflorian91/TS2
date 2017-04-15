@@ -1,7 +1,7 @@
 import {IVegetable} from './IVegetable';
 
 /**
- * @description Potato
+ * @description Potato domain object
  */
 export class Potato implements IVegetable {
 	

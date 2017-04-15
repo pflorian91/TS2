@@ -1,11 +1,8 @@
-/**
- * Carrot created on 4/15/17 3:31 PM.
- *
- * @description Carrot
- */
-
 import {IVegetable} from './IVegetable';
 
+/**
+ * @description Carrot domain object
+ */
 export class Carrot implements IVegetable {
 	
 	public grow(): void {

@@ -1,15 +1,12 @@
-/**
- * VegetableFacadeDemo created on 4/15/17 3:56 PM.
- *
- * @description [To be completed]
- */
-
 import {IDemo} from '../IDemo';
 import {
 	IVegetableFacade,
 	VegetableFacade
 } from './VegetableFacade';
 
+/**
+ * @description Vegetable Facade demo implementation
+ */
 class VegetableFacadeDemo implements IDemo {
 	
 	private vegetableFacade: IVegetableFacade = new VegetableFacade();

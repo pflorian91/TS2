@@ -1,17 +1,14 @@
-/**
- * VegetableFacade created on 4/15/17 3:30 PM.
- *
- * @description [To be completed]
- */
-
-import {Carrot} from '../Carrot';
-import {Mushroom} from '../Mushroom';
-import {Potato} from '../Potato';
+import {Carrot} from '../domain-objects/Carrot';
+import {Mushroom} from '../domain-objects/Mushroom';
+import {Potato} from '../domain-objects/Potato';
 
 export interface IVegetableFacade {
 	growVegetables(): void;
 }
 
+/**
+ * @description Facade for growing vegetables
+ */
 export class VegetableFacade implements IVegetableFacade {
 	
 	private carrot: Carrot = new Carrot();

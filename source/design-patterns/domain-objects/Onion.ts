@@ -1,11 +1,8 @@
-/**
- * Onion created on 4/15/17 3:31 PM.
- *
- * @description Onion
- */
-
 import {IVegetable} from './IVegetable';
 
+/**
+ * @description Onion domain object
+ */
 export class Onion implements IVegetable {
 	
 	public grow(): void {
