@@ -5,14 +5,12 @@
  * @author Florian Popa <florian@webgenerals.com>
  */
 
-import { sayHello } from "./greet";
+import { sayHello } from './greet';
 
-console.log(sayHello("TypeScript"));
+console.log(sayHello('TypeScript'));
 
 class HelloThere {
 
-	public hi = () => {
-
-	};
+	public hi = () => {};
 
 }

@@ -27,6 +27,12 @@ See [TS compiler options](https://www.typescriptlang.org/docs/handbook/compiler-
 
 Source maps are generated using [gulp-sourcemaps](https://www.npmjs.com/package/gulp-sourcemaps).
 
+Tslint
+- https://github.com/panuhorsmalahti/gulp-tslint
+- https://palantir.github.io/tslint/
+- https://palantir.github.io/tslint/rules/
+
+
 Some things which are used in configuration and you might want to be aware of:
 - [merge2](https://www.npmjs.com/package/merge2) package used to merge the Typescript project streams
 - [Information from TS on Gulp integration ](https://www.typescriptlang.org/docs/handbook/gulp.html)
