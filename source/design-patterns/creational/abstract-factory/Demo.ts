@@ -3,8 +3,8 @@ import {
 	IFoodAbstractFactory
 } from './FoodAbstractFactory';
 import {IDemo} from '../../IDemo';
-import {IFruit} from '../../domain-objects/IFruit';
-import {IVegetable} from '../../domain-objects/IVegetable';
+import {IFruit} from '../../../domain-objects/fruit/IFruit';
+import {IVegetable} from '../../../domain-objects/vegetable/IVegetable';
 
 /**
  * @description Food AbstractFactory demo implementation

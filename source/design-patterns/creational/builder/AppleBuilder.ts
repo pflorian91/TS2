@@ -1,7 +1,7 @@
-import {IFood} from '../../domain-objects/IFood';
+import {IFood} from '../../../domain-objects/IFood';
 import {IFoodBuilder} from './IFoodBuilder';
-import {Apple} from '../../domain-objects/Apple';
-import {IFruit} from '../../domain-objects/IFruit';
+import {Apple} from '../../../domain-objects/fruit/Apple';
+import {IFruit} from '../../../domain-objects/fruit/IFruit';
 
 /**
  * @description Apple builder

@@ -1,4 +1,4 @@
-import {IFruit} from '../../domain-objects/IFruit';
+import {IFruit} from '../../../domain-objects/fruit/IFruit';
 
 export interface IFruitBuilder {
 	build(): IFruit;

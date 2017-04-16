@@ -1,4 +1,4 @@
-import {IFood} from '../../domain-objects/IFood';
+import {IFood} from '../../../domain-objects/IFood';
 import {IFoodBuilder} from './IFoodBuilder';
 
 export interface IFoodMaker {

@@ -1,6 +1,6 @@
-import {Carrot} from '../../domain-objects/Carrot';
-import {Mushroom} from '../../domain-objects/Mushroom';
-import {Potato} from '../../domain-objects/Potato';
+import {Carrot} from '../../../domain-objects/vegetable/Carrot';
+import {Mushroom} from '../../../domain-objects/vegetable/Mushroom';
+import {Potato} from '../../../domain-objects/vegetable/Potato';
 
 export interface IVegetableFacade {
 	growVegetables(): void;

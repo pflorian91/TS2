@@ -5,7 +5,7 @@ import {
 } from './FoodMaker';
 import {IFoodBuilder} from './IFoodBuilder';
 import {AppleBuilder} from './AppleBuilder';
-import {IFood} from '../../domain-objects/IFood';
+import {IFood} from '../../../domain-objects/IFood';
 import {MushroomBuilder} from './MushroomBuilder';
 
 /**

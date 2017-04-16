@@ -1,8 +1,8 @@
-import {Apple} from '../../domain-objects/Apple';
-import {Carrot} from '../../domain-objects/Carrot';
-import {Cherry} from '../../domain-objects/Cherry';
-import {IFruit} from '../../domain-objects/IFruit';
-import {IVegetable} from '../../domain-objects/IVegetable';
+import {Apple} from '../../../domain-objects/fruit/Apple';
+import {Carrot} from '../../../domain-objects/vegetable/Carrot';
+import {Cherry} from '../../../domain-objects/fruit/Cherry';
+import {IFruit} from '../../../domain-objects/fruit/IFruit';
+import {IVegetable} from '../../../domain-objects/vegetable/IVegetable';
 
 export interface IFoodAbstractFactory {
 	makeFruit(sweet?: boolean): IFruit;
