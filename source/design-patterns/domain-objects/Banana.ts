@@ -5,7 +5,17 @@ import {IFruit} from './IFruit';
  */
 export class Banana implements IFruit {
 	
+	private name: string = 'Banana';
+	
 	public flower(): void {
-		console.log('I flower with banana flower spike');
+		console.log(`I flower with ${this.name} flower spike`);
+	}
+	
+	public grow(): void {
+		console.log(`I am growing as a ${this.name}`);
+	}
+	
+	public whoami(): void {
+		console.log(`I am a ${this.name}`);
 	}
 }

@@ -28,7 +28,8 @@
       "tabs"
     ],
     "no-trailing-whitespace": false,
-    "trailing-comma": false
+    "trailing-comma": false,
+    "ordered-imports": false
   }
   /*"jsRules": {
     "max-line-length": {

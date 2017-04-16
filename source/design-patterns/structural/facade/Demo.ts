@@ -1,8 +1,8 @@
-import {IDemo} from '../IDemo';
 import {
 	IVegetableFacade,
 	VegetableFacade
 } from './VegetableFacade';
+import {IDemo} from '../../IDemo';
 
 /**
  * @description Vegetable Facade demo implementation

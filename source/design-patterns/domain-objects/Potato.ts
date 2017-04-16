@@ -5,8 +5,17 @@ import {IVegetable} from './IVegetable';
  */
 export class Potato implements IVegetable {
 	
+	private name: string = 'Potato';
+	
 	public grow(): void {
-		console.log('I am growing as a Potato');
+		console.log(`I am growing as a ${this.name}`);
 	}
 	
+	public canEatRootOrBulb(): boolean {
+		return true;
+	}
+	
+	public whoami(): void {
+		console.log(`I am a ${this.name}`);
+	}
 }
