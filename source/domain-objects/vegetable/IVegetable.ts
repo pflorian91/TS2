@@ -1,7 +1,7 @@
 import {IFood} from '../IFood';
 
 /**
- * @description IVegetable interface
+ * @description Vegetable interface
  */
 export interface IVegetable extends IFood {
 	canEatRootOrBulb(): boolean;

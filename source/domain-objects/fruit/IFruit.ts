@@ -1,7 +1,7 @@
 import {IFood} from '../IFood';
 
 /**
- * @description IFruit interface
+ * @description Fruit interface
  */
 export interface IFruit extends IFood {
 	flower(): void;
